@@ -95,21 +95,21 @@ print('\n')
 def game(comp, user):
     if comp== 's' and user== 'w':
         user=="loser"
-    elif comp== 'w' and user== 's':
+    if comp== 'w' and user== 's':
         user=="winner"
-    elif comp== 'w' and user== 'g':
+    if comp== 'w' and user== 'g':
         user=="loser"
-    elif comp== 'g' and user== 'w':
+    if comp== 'g' and user== 'w':
         user="winner"
-    elif comp== 'g' and user== 's':
+    if comp== 'g' and user== 's':
         user=="loser"
-    elif comp== 's' and user== 'g':
+    if comp== 's' and user== 'g':
         user="winner"
-    elif comp== 's' and user== 's':
+    if comp== 's' and user== 's':
         user= 'draw'
-    elif comp== 'w' and user== 'w':
+    if comp== 'w' and user== 'w':
         user= 'draw'
-    elif comp== 'g' and user== 'g':
+    if comp== 'g' and user== 'g':
         user= 'draw'
     
     
